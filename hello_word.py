@@ -23,3 +23,22 @@ class HelloWorld(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(verbosity=2, testRunner=HTMLTestRunner(output='reports', report_name='Hello_world_report'))
+
+
+"""
+-----------Estructura general-----------
+import unittest
+from selenium import webdriver
+
+class HomePageTests(unittes.TestCase):
+    
+    def setUp(self):
+        pass
+
+    def TearDown(self):
+        pass
+
+
+if __name__ == '__main__':
+    unittest.main(verbosity = 2)
+"""
